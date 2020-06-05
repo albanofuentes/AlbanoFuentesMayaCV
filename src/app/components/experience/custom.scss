@@ -1,0 +1,4 @@
+@import '~@angular/material/theming';
+@include mat-core();
+$custom-typography: mat-typography-config( $font-family: 'Inknut Antiqua', serif);
+@include angular-material-theme($app-theme);

@@ -1,0 +1,63 @@
+/* 
+.titulo-work-exp {
+    font-size: 1.6rem;
+} */
+
+
+/* 
+.titulo-exp {
+    font-size: 1rem;
+} */
+
+
+/* .circulo {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: gray;
+    color: black;
+} */
+
+
+/* .exp-comp {
+    color: #4b4747;
+    box-sizing: border-box;
+} */
+
+
+/* 
+.button:link,
+.button:visited {
+    font-style: italic;
+    background-color: #EEB75A;
+}
+
+.button:hover,
+.button:visited:hover {
+    background-color: #F5CF8E;
+}
+
+.button:active,
+.button:visited:active {
+    background-color: #EEB75A;
+}
+
+.button {
+    margin-top: 90px;
+    margin-left: 30px;
+    /* padding-top: 90px; 
+} */
+
+.icono {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 6px;
+}
+
+.title-workexp {
+    box-sizing: border-box;
+    font-size: 35px;
+    color: #4b4747;
+    margin: 12px;
+    font-weight: lighter;
+}

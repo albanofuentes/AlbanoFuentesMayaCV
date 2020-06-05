@@ -1,0 +1,9 @@
+.border-r {
+    border-right: 2px;
+    border-right-style: solid;
+    border-color: rgb(170, 168, 168);
+}
+
+.main-container {
+    margin-top: 100px;
+}
