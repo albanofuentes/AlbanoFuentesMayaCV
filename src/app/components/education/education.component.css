@@ -1,0 +1,35 @@
+.th-icono-education {
+    padding-top: 6px;
+    position: relative;
+    right: 10px;
+    width: 60px;
+}
+
+.title-workexp {
+    box-sizing: border-box;
+    font-size: 35px;
+    color: #4b4747;
+    font-family: serif;
+    margin: 12px;
+    font-weight: lighter;
+}
+
+table {
+    /* margin-left: auto; */
+    font-family: serif;
+    font-size: 18px;
+}
+
+.periodo {
+    width: 135px;
+}
+
+.ul-education {
+    /* width: 500px; */
+    width: 11cm;
+}
+
+.titulo {
+    font-weight: bolder;
+    font-size: 20px;
+}

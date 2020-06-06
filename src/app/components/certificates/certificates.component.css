@@ -1,0 +1,14 @@
+.icono {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 6px;
+}
+
+.title-workexp {
+    box-sizing: border-box;
+    font-size: 35px;
+    color: #4b4747;
+    font-family: serif;
+    margin: 12px;
+    font-weight: lighter;
+}

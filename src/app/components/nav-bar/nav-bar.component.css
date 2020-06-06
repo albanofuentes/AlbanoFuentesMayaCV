@@ -17,6 +17,7 @@
     .texto-titulo {
         font-size: 4rem;
         width: fit-content;
+        font-family: serif;
     }
     
     .contenedor-bg-padre {

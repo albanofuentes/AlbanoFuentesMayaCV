@@ -1,63 +1,57 @@
-/* 
-.titulo-work-exp {
-    font-size: 1.6rem;
-} */
-
-
-/* 
-.titulo-exp {
-    font-size: 1rem;
-} */
-
-
-/* .circulo {
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
-    background-color: gray;
-    color: black;
-} */
-
-
-/* .exp-comp {
-    color: #4b4747;
-    box-sizing: border-box;
-} */
-
-
-/* 
-.button:link,
-.button:visited {
-    font-style: italic;
-    background-color: #EEB75A;
-}
-
-.button:hover,
-.button:visited:hover {
-    background-color: #F5CF8E;
-}
-
-.button:active,
-.button:visited:active {
-    background-color: #EEB75A;
-}
-
-.button {
-    margin-top: 90px;
-    margin-left: 30px;
-    /* padding-top: 90px; 
-} */
-
-.icono {
-    display: flex;
-    justify-content: flex-start;
+.th-icono-work {
     padding-top: 6px;
+    position: relative;
+    right: 230px;
+    width: 60px;
 }
 
 .title-workexp {
     box-sizing: border-box;
     font-size: 35px;
     color: #4b4747;
+    font-family: serif;
     margin: 12px;
-    font-weight: lighter;
+    display: block;
+    position: relative;
+    right: 230px;
+    top: 4px;
+    /* font-weight: bold; */
+}
+
+.li-exp {
+    width: 11cm;
+    line-height: 18px;
+    padding-bottom: 8px;
+}
+
+.ul-exp {
+    width: 500px;
+    /* padding: 25px; */
+    margin-top: 15px;
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!! :)*/
+    /* margin-left: 10px; */
+    /* box-sizing: border-box; */
+    margin-bottom: 8px;
+    padding-inline-start: 25px;
+}
+
+table {
+    margin-left: auto;
+    font-family: serif;
+    color: #4b4747;
+    /* font-weight: bold; */
+    font-size: 18px;
+}
+
+.job-periodo {
+    width: 135px;
+}
+
+.cargo-style {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.empresa {
+    line-height: 10px;
 }

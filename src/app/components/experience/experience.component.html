@@ -1,85 +1,83 @@
-<div class="mat-typography">
+<div>
     <table>
         <tr>
-            <th class="icono">
-                <img src="assets/img/work.png" width="60" class="icon-workexp">
+            <th class="th-icono-work">
+                <img src="assets/img/work.png">
             </th>
-
-            <!-- d-inline-block align-top -->
-            <th class="border solid red 2px">
-                <h2 class="title-workexp ">WORK EXPERIENCE</h2>
+            <th>
+                <h2 class="title-workexp">WORK EXPERIENCE</h2>
             </th>
         </tr>
-
     </table>
 </div>
 
+<br>
+
 <div>
     <table>
         <tr>
-            <td>{{jobs.job1.cargo}}</td>
-            <td>{{jobs.job1.periodo}}</td>
+            <td class="cargo-style">{{jobs.job1.cargo}}</td>
+            <td class="job-periodo">{{jobs.job1.periodo}}</td>
         </tr>
-        <tr>{{jobs.job1.empresa}}, {{jobs.job1.ciudadEmpresa}}, {{jobs.job1.paisEmpresa}}</tr>
+        <tr class="empresa">{{jobs.job1.empresa}}, {{jobs.job1.ciudadEmpresa}}, {{jobs.job1.paisEmpresa}}</tr>
         <tr>
-            <ul>
-                <li>{{jobs.job1.tareas.tarea1}}</li>
-                <li>{{jobs.job1.tareas.tarea2}}</li>
-            </ul>
-        </tr>
-    </table>
-</div>
-<div>
-    <table>
-        <tr>
-            <td>{{jobs.job2.cargo}}</td>
-            <td>{{jobs.job2.periodo}}</td>
-        </tr>
-        <tr>{{jobs.job2.empresa}}, {{jobs.job2.ciudadEmpresa}}, {{jobs.job1.paisEmpresa}}</tr>
-        <tr>
-            <ul>
-                <li>{{jobs.job2.tareas.tarea1}}</li>
-                <li>{{jobs.job2.tareas.tarea2}}</li>
-                <li>{{jobs.job2.tareas.tarea3}}</li>
-            </ul>
-        </tr>
-    </table>
-</div>
-<div>
-    <table>
-        <tr>
-            <td>{{jobs.job3.cargo}}</td>
-            <td>{{jobs.job3.periodo}}</td>
-        </tr>
-        <tr>{{jobs.job3.empresa}}, {{jobs.job3.ciudadEmpresa}}, {{jobs.job3.paisEmpresa}}</tr>
-        <tr>
-            <ul>
-                <li>{{jobs.job3.tareas.tarea1}}</li>
-                <li>{{jobs.job3.tareas.tarea2}}</li>
-                <li>{{jobs.job3.tareas.tarea3}}</li>
-                <li>{{jobs.job3.tareas.tarea4}}</li>
-            </ul>
-        </tr>
-    </table>
-</div>
-<div>
-    <table>
-        <tr>
-            <td>{{jobs.job4.cargo}}</td>
-            <td>{{jobs.job4.periodo}}</td>
-        </tr>
-        <tr>{{jobs.job4.empresa}}, {{jobs.job4.ciudadEmpresa}}, {{jobs.job4.paisEmpresa}}</tr>
-        <tr>
-            <ul>
-                <li>
-                    <ul>
-                        <li>{{jobs.job4.tareas.tarea1}}</li>
-                        <li>{{jobs.job4.tareas.tarea2}}</li>
-                    </ul>
-                </li>
+            <ul class="ul-exp">
+                <li class="li-exp">{{jobs.job1.tareas.tarea1}}</li>
+                <li class="li-exp">{{jobs.job1.tareas.tarea2}}</li>
             </ul>
         </tr>
     </table>
 </div>
 
-<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap" rel="stylesheet">
+<div>
+    <table>
+        <tr>
+            <td class="cargo-style">{{jobs.job2.cargo}}</td>
+            <td class="job-periodo">{{jobs.job2.periodo}}</td>
+        </tr>
+        <tr class="empresa">{{jobs.job2.empresa}}, {{jobs.job2.ciudadEmpresa}}, {{jobs.job1.paisEmpresa}}</tr>
+        <tr>
+            <ul class="ul-exp">
+                <li class="li-exp">{{jobs.job2.tareas.tarea1}}</li>
+                <li class="li-exp">{{jobs.job2.tareas.tarea2}}</li>
+                <li class="li-exp">{{jobs.job2.tareas.tarea3}}</li>
+            </ul>
+        </tr>
+    </table>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td class="cargo-style">{{jobs.job3.cargo}}</td>
+            <td class="job-periodo">{{jobs.job3.periodo}}</td>
+        </tr>
+        <tr class="empresa">{{jobs.job3.empresa}}, {{jobs.job3.ciudadEmpresa}}, {{jobs.job3.paisEmpresa}}</tr>
+        <tr>
+            <ul class="ul-exp">
+                <li class="li-exp">{{jobs.job3.tareas.tarea1}}</li>
+                <li class="li-exp">{{jobs.job3.tareas.tarea2}}</li>
+                <li class="li-exp">{{jobs.job3.tareas.tarea3}}</li>
+                <li class="li-exp">{{jobs.job3.tareas.tarea4}}</li>
+            </ul>
+        </tr>
+    </table>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td class="cargo-style">{{jobs.job4.cargo}}</td>
+            <td class="job-periodo">{{jobs.job4.periodo}}</td>
+        </tr>
+        <tr class="empresa">{{jobs.job4.empresa}}, {{jobs.job4.ciudadEmpresa}}, {{jobs.job4.paisEmpresa}}</tr>
+        <tr>
+            <ul class="ul-exp">
+                <li class="li-exp">{{jobs.job4.tareas.tarea1}}</li>
+                <li class="li-exp">{{jobs.job4.tareas.tarea2}}</li>
+            </ul>
+        </tr>
+    </table>
+</div>
+
+<li class="li-exp" nk href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap" rel="stylesheet">
