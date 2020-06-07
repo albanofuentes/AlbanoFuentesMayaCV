@@ -1,103 +1,88 @@
-<div>
-    <table>
-        <tr>
-            <th class="th-icono-education">
-                <img src="assets/img/education.png">
-            </th>
-
-            <th>
-                <h2 class="title-workexp ">EDUCATION</h2>
-            </th>
-        </tr>
-    </table>
-</div>
-
-<br>
-
-<div>
-    <table>
-        <tr>
-            <td class="titulo">{{edus.edu1.titulo}}</td>
-            <td class="pediodo">{{edus.edu1.periodo}}</td>
-        </tr>
-        <tr>{{edus.edu1.institucion}}, {{edus.edu1.ciudadInstitucion}}, {{edus.edu1.paisInstitucion}}</tr>
-        <tr *ngIf="edus.edu1.tecnos.tecno1">
-            <ul class="ul-education">
-                <li>{{edus.edu1.tecnos.tecno1}}</li>
-                <li>{{edus.edu1.tecnos.tecno2}}</li>
-            </ul>
-        </tr>
-    </table>
-</div>
-
-<br>
-
-<div>
-    <table>
-        <tr>
-            <td class="titulo">{{edus.edu2.titulo}}</td>
-            <td class="pediodo">{{edus.edu2.periodo}}</td>
-        </tr>
-        <tr>{{edus.edu2.institucion}}, {{edus.edu2.ciudadInstitucion}}, {{edus.edu2.paisInstitucion}}</tr>
-        <tr *ngIf="edus.edu2.tecnos.tecno1">
-            <ul class="ul-education">
-                <li>{{edus.edu2.tecnos.tecno1}}</li>
-                <li>{{edus.edu2.tecnos.tecno2}}</li>
-            </ul>
-        </tr>
-    </table>
-</div>
-
-<br>
-
-<div>
-    <table>
-        <tr>
-            <td class="titulo">{{edus.edu3.titulo}}</td>
-            <td class="pediodo">{{edus.edu3.periodo}}</td>
-        </tr>
-        <tr>{{edus.edu3.institucion}}, {{edus.edu3.ciudadInstitucion}}, {{edus.edu3.paisInstitucion}}</tr>
-        <tr *ngIf="edus.edu3.tecnos.tecno1">
-            <ul class="ul-education">
-                <li>{{edus.edu3.tecnos.tecno1}}</li>
-                <li>{{edus.edu3.tecnos.tecno2}}</li>
-            </ul>
-        </tr>
-    </table>
-</div>
-
-<br>
-
-<div>
-    <table>
-        <tr>
-            <td class="titulo">{{edus.edu4.titulo}}</td>
-            <td class="pediodo">{{edus.edu4.periodo}}</td>
-        </tr>
-        <tr>{{edus.edu4.institucion}}, {{edus.edu4.ciudadInstitucion}}, {{edus.edu4.paisInstitucion}}</tr>
-        <tr *ngIf="edus.edu4.tecnos.tecno1">
-            <ul class="ul-education">
-                <li>{{edus.edu4.tecnos.tecno1}}</li>
-                <li *ngIf="edus.edu4.tecnos.tecno2">{{edus.edu4.tecnos.tecno2}}</li>
-            </ul>
-        </tr>
-    </table>
-</div>
-
-<br>
-
-<div>
-    <table>
-        <tr>
-            <td class="titulo">{{edus.edu5.titulo}}</td>
-            <td>{{edus.edu5.periodo}}</td>
-        </tr>
-        <tr>{{edus.edu5.institucion}}, {{edus.edu5.ciudadInstitucion}}, {{edus.edu5.paisInstitucion}}</tr>
-        <tr *ngIf="edus.edu5.tecnos.tecno1">
-            <ul>
-                <li>{{edus.edu5.tecnos.tecno1}}</li>
-                <li>{{edus.edu5.tecnos.tecno2}}</li>
-            </ul>
-        </tr>
-    </table>
+<div class="edu-div-container border-right">
+    <div>
+        <table>
+            <tr>
+                <th class="th-icono-education">
+                    <img src="assets/img/education.png">
+                </th>
+                <th>
+                    <h2 class="title-workexp ">EDUCATION</h2>
+                </th>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td class="titulo">{{edus.edu1.titulo}}</td>
+                <td class="edu-pediodo">{{edus.edu1.periodo}}</td>
+            </tr>
+            <tr class="institucion">{{edus.edu1.institucion}}, {{edus.edu1.ciudadInstitucion}}, {{edus.edu1.paisInstitucion}}</tr>
+            <tr *ngIf="edus.edu1.tecnos.tecno1">
+                <ul class="ul-education">
+                    <li class="li-edu">{{edus.edu1.tecnos.tecno1}}</li>
+                    <li class="li-edu">{{edus.edu1.tecnos.tecno2}}</li>
+                </ul>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td class="titulo">{{edus.edu2.titulo}}</td>
+                <td class="edu-pediodo">{{edus.edu2.periodo}}</td>
+            </tr>
+            <tr class="institucion">{{edus.edu2.institucion}}, {{edus.edu2.ciudadInstitucion}}, {{edus.edu2.paisInstitucion}}</tr>
+            <tr *ngIf="edus.edu2.tecnos.tecno1">
+                <ul class="ul-education">
+                    <li class="li-edu">{{edus.edu2.tecnos.tecno1}}</li>
+                    <li class="li-edu">{{edus.edu2.tecnos.tecno2}}</li>
+                </ul>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td class="titulo">{{edus.edu3.titulo}}</td>
+                <td class="edu-pediodo">{{edus.edu3.periodo}}</td>
+            </tr>
+            <tr class="institucion">{{edus.edu3.institucion}}, {{edus.edu3.ciudadInstitucion}}, {{edus.edu3.paisInstitucion}}</tr>
+            <tr *ngIf="edus.edu3.tecnos.tecno1">
+                <ul class="ul-education">
+                    <li class="li-edu">{{edus.edu3.tecnos.tecno1}}</li>
+                    <li class="li-edu">{{edus.edu3.tecnos.tecno2}}</li>
+                </ul>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td class="titulo">{{edus.edu4.titulo}}</td>
+                <td class="edu-pediodo">{{edus.edu4.periodo}}</td>
+            </tr>
+            <tr>{{edus.edu4.institucion}}, {{edus.edu4.ciudadInstitucion}}, {{edus.edu4.paisInstitucion}}</tr>
+            <tr>
+                <ul>
+                    <li class="li-edu">{{edus.edu4.tecnos.tecno1}}</li>
+                </ul>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td class="titulo">{{edus.edu5.titulo}}</td>
+                <td class="edu-pediodo">{{edus.edu5.periodo}}</td>
+            </tr>
+            <tr>{{edus.edu5.institucion}}, {{edus.edu5.ciudadInstitucion}}, {{edus.edu5.paisInstitucion}}</tr>
+            <tr>
+                <ul>
+                    <li class="li-edu">{{edus.edu5.tecnos.tecno1}}</li>
+                    <li class="li-edu">{{edus.edu5.tecnos.tecno2}}</li>
+                </ul>
+            </tr>
+        </table>
+    </div>
 </div>

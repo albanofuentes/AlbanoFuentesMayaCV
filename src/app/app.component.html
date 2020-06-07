@@ -1,15 +1,24 @@
 <app-nav-bar></app-nav-bar>
-<div class="main-container">
-    <app-datos-personales></app-datos-personales>
-</div>
-<div class="row mt-4">
-    <div class="col-xl-6 col-md-6 col-sm-12 border-r">
-        <app-experience></app-experience>
-        <app-education></app-education>
-    </div>
-    <br><br>
-    <div class="col-xl-6 col-md-6 col-sm-12">
-        <app-skills></app-skills>
-        <app-certificates></app-certificates>
-    </div>
-</div>
+<br><br><br><br>
+<table class="table">
+    <th>
+        <app-datos-personales></app-datos-personales>
+    </th>
+    <tbody>
+        <tr class="row">
+            <td>
+                <app-experience></app-experience>
+            </td>
+            <td>
+                <app-skills class="posicion-skills"></app-skills>
+            </td>
+        </tr>
+        <tr class="row">
+            <td>
+                <app-education class="posicion-education"></app-education>
+            </td>
+            <td>
+                <app-certificates></app-certificates>
+            </td>
+        </tr>
+    </tbody>

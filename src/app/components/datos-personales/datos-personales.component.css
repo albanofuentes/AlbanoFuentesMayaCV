@@ -7,16 +7,5 @@
 .datos-container {
     display: flex;
     justify-content: space-evenly;
+    font-family: serif;
 }
-
-.fecha-nacimiento {}
-
-.pais {}
-
-.direccion {}
-
-.codigo-postal {}
-
-.telefono {}
-
-.mail {}

@@ -1,11 +1,14 @@
-.bar {
-    width: 200px;
-    padding-bottom: 8px;
-    position: relative;
-    left: 30px;
+.ubicacion-skill {
+    display: flex;
+    justify-content: flex-start;
 }
 
-.icon-skill {
+.skill-div-container {
+    /* width: 50%; */
+    /* box-sizing: border-box; */
+}
+
+.th-icono-skills {
     padding-top: 1px;
     width: 60px;
 }
@@ -24,26 +27,32 @@
     text-align: center;
 }
 
-.h-comp-skills {
+.h-skills {
     color: #4b4747;
     font-family: serif;
 }
 
 .skill {
-    width: 4cm;
-}
-
-.th-skill {
-    /* height: 3px; */
-    /* padding-bottom: 0px;
-    padding-top: 0px; */
-}
-
-.tr-skill {
-    /* padding-bottom: 0px;
-    padding-top: 0px; */
+    width: 6cm;
 }
 
 .div-skill {
     height: 22px;
 }
+
+.div-iskill {
+    height: 22px;
+}
+
+table {
+    font-family: serif;
+    color: #4b4747;
+}
+
+
+/* .bar {
+    width: 200px;
+    padding-bottom: 8px;
+    position: relative;
+    left: 30px;
+} */

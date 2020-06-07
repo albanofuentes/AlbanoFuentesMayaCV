@@ -1,7 +1,23 @@
+.edu-div-container {
+    /* position: absolute;
+    left: 330px;
+    top: 800px; */
+    /* width: 900px; */
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.border-right {
+    /* border: 5px red solid; */
+    border-right: 2px;
+    border-right-style: solid;
+    border-color: rgb(170, 168, 168);
+}
+
 .th-icono-education {
-    padding-top: 6px;
-    position: relative;
-    right: 10px;
+    padding-top: 1px;
+    /* position: relative;
+    right: 15px; */
     width: 60px;
 }
 
@@ -11,25 +27,48 @@
     color: #4b4747;
     font-family: serif;
     margin: 12px;
-    font-weight: lighter;
 }
 
 table {
-    /* margin-left: auto; */
+    /* margin: 0 auto; */
     font-family: serif;
+    color: #4b4747;
     font-size: 18px;
 }
 
-.periodo {
-    width: 135px;
+.edu-periodo {
+    width: 250px;
 }
 
 .ul-education {
-    /* width: 500px; */
+    width: 500px;
+    /* margin-top: 15px;
+    margin-bottom: 8px; */
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    /* padding-inline-start: 5px; */
+}
+
+.li-edu {
     width: 11cm;
+    line-height: 18px;
+    padding-bottom: 5px;
 }
 
 .titulo {
     font-weight: bolder;
     font-size: 20px;
+    width: 500px;
 }
+
+.div-ul {
+    padding-bottom: 0%;
+}
+
+
+/* .institucion {
+    line-height: 10px;
+} */

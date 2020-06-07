@@ -1,9 +1,31 @@
-.border-r {
+.border-right {
+    /* border: 5px red solid; */
     border-right: 2px;
     border-right-style: solid;
     border-color: rgb(170, 168, 168);
 }
 
+.posicion-skills {
+    position: relative;
+    left: 910px;
+}
+
+.posicion-education {
+    position: relative;
+    top: 500px;
+}
+
+
+/* .border-bottom {
+    border-bottom: 10px;
+    border-bottom-style: solid;
+    border-color: rgb(170, 168, 168);
+} */
+
 .main-container {
     margin-top: 100px;
+}
+
+.component-container {
+    margin-top: 30px;
 }

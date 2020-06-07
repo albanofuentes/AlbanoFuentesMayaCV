@@ -1,14 +1,51 @@
-.icono {
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 6px;
+.cert-div-container {
+    /* width: 900px; */
+    width: 50%;
+    box-sizing: border-box;
 }
 
-.title-workexp {
+.th-icono-cert {
+    padding-top: 1px;
+    width: 60px;
+}
+
+.title-cert {
     box-sizing: border-box;
     font-size: 35px;
     color: #4b4747;
     font-family: serif;
     margin: 12px;
-    font-weight: lighter;
+}
+
+.div-title-cert {
+    margin-top: 10px;
+    font-family: serif;
+    color: #4b4747;
+    font-size: 18px;
+}
+
+table {
+    margin-left: auto;
+    font-family: serif;
+    color: #4b4747;
+    font-size: 18px;
+}
+
+.cert-periodo {
+    width: 500px;
+}
+
+.titulo-style {
+    font-weight: bolder;
+    font-size: 20px;
+    width: 500px;
+}
+
+.institucion-style {
+    line-height: 10px;
+}
+
+.tecno-style {
+    width: 6cm;
+    margin-top: 30px;
 }

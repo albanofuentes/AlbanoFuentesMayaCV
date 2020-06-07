@@ -9,7 +9,7 @@ export class EducationComponent implements OnInit {
 
   edus: any = {
     edu1: {
-      titulo : 'Ingenieria en Sistemas de la Información',
+      titulo : 'Ingeniería en Sistemas de la Información',
       periodo: '03/2019 - Presente - En Curso',
       institucion : 'U.T.N / F.R.B.A.',
       ciudadInstitucion : 'CABA',
@@ -20,7 +20,7 @@ export class EducationComponent implements OnInit {
       }
     },
     edu2: {
-      titulo : 'Ingenieria Electrónica',
+      titulo : 'Ingeniería Electrónica',
       periodo: '03/2012 - 12/2016 - A Completar',
       institucion : 'U.T.N / F.R.B.A.',
       ciudadInstitucion : 'CABA',
@@ -33,7 +33,7 @@ export class EducationComponent implements OnInit {
     edu3: {
       titulo : 'Técnico Electrónico',
       periodo: '03/2001 - 12/2006',
-      institucion : 'Escuela Técnica N°1 "ing. Otto Krause',
+      institucion : 'Escuela Técnica N°1 "Ing. Otto Krause',
       ciudadInstitucion : 'CABA',
       paisInstitucion : 'Argentina',
       tecnos: {
@@ -49,7 +49,6 @@ export class EducationComponent implements OnInit {
       paisInstitucion : 'Argentina',
       tecnos: {
         tecno1 : 'Desarrollo Front End con Angular 8 y Back End Spring 5, Spring Boot, API REST, JPA, Spring Security OAuth2, JWT, Socket',
-        tecno2 : ''
       }
     },
     edu5: {

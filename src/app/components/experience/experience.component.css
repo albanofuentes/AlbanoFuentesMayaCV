@@ -1,7 +1,20 @@
+.ubicacion-exp {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.exp-div-container {
+    /* position: absolute;
+    left: 30px; */
+    /* width: 900px; */
+    /* width: 50%; */
+    box-sizing: border-box;
+}
+
 .th-icono-work {
-    padding-top: 6px;
-    position: relative;
-    right: 230px;
+    padding-top: 1px;
+    /* position: relative;
+    right: 230px; */
     width: 60px;
 }
 
@@ -12,9 +25,8 @@
     font-family: serif;
     margin: 12px;
     display: block;
-    position: relative;
-    right: 230px;
-    top: 4px;
+    /* position: relative;
+    right: 230px; */
     /* font-weight: bold; */
 }
 
@@ -39,7 +51,6 @@ table {
     margin-left: auto;
     font-family: serif;
     color: #4b4747;
-    /* font-weight: bold; */
     font-size: 18px;
 }
 
