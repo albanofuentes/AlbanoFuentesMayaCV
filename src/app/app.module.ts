@@ -9,6 +9,10 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { EducationComponent } from './components/education/education.component';
 import { CertificatesComponent } from './components/certificates/certificates.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { InfoComponent } from './components/info/info.component';
+import { TrabajosService } from './servicios/trabajos.service';
+import { EducationService } from './servicios/education.service';
+import { CertificatesService } from './servicios/certificados.service';
 
 @NgModule({
   declarations: [
@@ -19,12 +23,17 @@ import { SkillsComponent } from './components/skills/skills.component';
     ExperienceComponent,
     EducationComponent,
     CertificatesComponent,
-    SkillsComponent
+    SkillsComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    TrabajosService,
+    EducationService,
+    CertificatesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

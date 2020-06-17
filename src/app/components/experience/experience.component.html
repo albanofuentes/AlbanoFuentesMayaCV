@@ -1,83 +1,34 @@
 <div class="ubicacion-exp">
     <div class="exp-div-container">
         <div>
-            <table>
-                <tr>
-                    <th class="th-icono-work">
-                        <img src="assets/img/work.png">
-                    </th>
-                    <th>
-                        <h2 class="title-workexp">WORK EXPERIENCE</h2>
-                    </th>
-                </tr>
-            </table>
+            <div class="row">
+                <div class="th-icono-work ">
+                    <img src="assets/img/work.png">
+                </div>
+                <div class="" style="text-align: start;">
+                    <h2 class="title-workexp">WORK EXPERIENCE</h2>
+                </div>
+            </div>
         </div>
 
-        <div>
-            <table>
-                <tr>
-                    <td class="cargo-style">{{jobs.job1.cargo}}</td>
-                    <td class="job-periodo">{{jobs.job1.periodo}}</td>
-                </tr>
-                <tr class="empresa">{{jobs.job1.empresa}}, {{jobs.job1.ciudadEmpresa}}, {{jobs.job1.paisEmpresa}}</tr>
-                <tr>
-                    <ul class="ul-exp">
-                        <li class="li-exp">{{jobs.job1.tareas.tarea1}}</li>
-                        <li class="li-exp">{{jobs.job1.tareas.tarea2}}</li>
-                    </ul>
-                </tr>
-            </table>
-        </div>
+        <div *ngFor="let trabajo of Trabajos">
+            <div class="row">
+                <div class="cargo-style col-md-8 col-xs-12">{{trabajo.cargo}}</div>
+                <div class="job-periodo col-md-4 col-xs-12">
+                    <div class="job-periodo">
+                        {{trabajo.periodo}}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="empresa col-12">{{trabajo.empresa}}, {{trabajo.ciudadEmpresa}}, {{trabajo.paisEmpresa}}</div>
+            </div>
 
-        <div>
-            <table>
-                <tr>
-                    <td class="cargo-style">{{jobs.job2.cargo}}</td>
-                    <td class="job-periodo">{{jobs.job2.periodo}}</td>
-                </tr>
-                <tr class="empresa">{{jobs.job2.empresa}}, {{jobs.job2.ciudadEmpresa}}, {{jobs.job1.paisEmpresa}}</tr>
-                <tr>
-                    <ul class="ul-exp">
-                        <li class="li-exp">{{jobs.job2.tareas.tarea1}}</li>
-                        <li class="li-exp">{{jobs.job2.tareas.tarea2}}</li>
-                        <li class="li-exp">{{jobs.job2.tareas.tarea3}}</li>
-                    </ul>
-                </tr>
-            </table>
-        </div>
-
-        <div>
-            <table>
-                <tr>
-                    <td class="cargo-style">{{jobs.job3.cargo}}</td>
-                    <td class="job-periodo">{{jobs.job3.periodo}}</td>
-                </tr>
-                <tr class="empresa">{{jobs.job3.empresa}}, {{jobs.job3.ciudadEmpresa}}, {{jobs.job3.paisEmpresa}}</tr>
-                <tr>
-                    <ul class="ul-exp">
-                        <li class="li-exp">{{jobs.job3.tareas.tarea1}}</li>
-                        <li class="li-exp">{{jobs.job3.tareas.tarea2}}</li>
-                        <li class="li-exp">{{jobs.job3.tareas.tarea3}}</li>
-                        <li class="li-exp">{{jobs.job3.tareas.tarea4}}</li>
-                    </ul>
-                </tr>
-            </table>
-        </div>
-
-        <div>
-            <table>
-                <tr>
-                    <td class="cargo-style">{{jobs.job4.cargo}}</td>
-                    <td class="job-periodo">{{jobs.job4.periodo}}</td>
-                </tr>
-                <tr class="empresa">{{jobs.job4.empresa}}, {{jobs.job4.ciudadEmpresa}}, {{jobs.job4.paisEmpresa}}</tr>
-                <tr>
-                    <ul class="ul-exp">
-                        <li class="li-exp">{{jobs.job4.tareas.tarea1}}</li>
-                        <li class="li-exp">{{jobs.job4.tareas.tarea2}}</li>
-                    </ul>
-                </tr>
-            </table>
+            <div>
+                <ul class="ul-exp col-md-11">
+                    <li *ngFor="let tarea of trabajo.tareas" class="li-exp">{{tarea}}</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

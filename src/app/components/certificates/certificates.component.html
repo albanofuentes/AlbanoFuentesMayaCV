@@ -1,34 +1,34 @@
-<div class="cert-div-container">
-    <div>
-        <table>
-            <tr>
-                <th class="th-icono-cert">
+<div class="ubicacion-exp">
+    <div class="exp-div-container">
+        <div>
+            <div class="row">
+                <div class="th-icono-work ">
                     <img src="assets/img/certificate.png">
-                </th>
-                <th>
-                    <h2 class="title-cert">CERTIFICATES</h2>
-                </th>
-            </tr>
-        </table>
-    </div>
-    <div>
-        <table>
-            <tr>
-                <td class="titulo-style">{{certis.certi1.titulo}}</td>
-                <td class="cert-periodo">{{certis.certi1.periodo}}</td>
-            </tr>
-            <tr class="institucion-style">{{certis.certi1.institucion}}, {{certis.certi1.ciudadInstitucion}}, {{certis.certi1.paisInstitucion}}</tr>
-            <tr class="tecno-style">{{certis.certi1.tecnos.tecno1}}</tr>
-        </table>
-    </div>
-    <div>
-        <table>
-            <tr>
-                <td class="titulo-style">{{certis.certi2.titulo}}</td>
-                <td class="cert-periodo">{{certis.certi2.periodo}}</td>
-            </tr>
-            <tr class="institucion-style">{{certis.certi2.institucion}}, {{certis.certi2.ciudadInstitucion}}, {{certis.certi2.paisEmpresa}}</tr>
-            <tr class="tecno-style">{{certis.certi2.tecnos.tecno1}}</tr>
-        </table>
+                </div>
+                <div class="" style="text-align: start;">
+                    <h2 class="title-workexp">CERTIFICATES</h2>
+                </div>
+            </div>
+        </div>
+
+        <div *ngFor="let cert of Certs">
+            <div class="row">
+                <div class="cargo-style col-md-8 col-xs-12">{{cert.titulo}}</div>
+                <div class="job-periodo col-md-4 col-xs-12">
+                    <div class="job-periodo">
+                        {{cert.periodo}}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="empresa col-12">{{cert.institucion}}, {{cert.ciudadInstitucion}}, {{cert.paisInstitucion}}</div>
+            </div>
+
+            <div *ngIf="cert.tecnos">
+                <ul class="ul-exp col-md-11">
+                    <li *ngFor="let tecno of cert.tecnos" class="li-exp">{{tecno}}</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>

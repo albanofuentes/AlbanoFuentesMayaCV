@@ -1,13 +1,44 @@
-<app-nav-bar></app-nav-bar>
-<br><br><br><br>
-<table class="table">
+<div>
+    <app-nav-bar></app-nav-bar>
+    <br><br><br><br>
+    <app-datos-personales></app-datos-personales>
+</div>
+<div class="content-container container">
+    <div class="col-12">
+        <div class="row">
+            <div class="card col-6">
+                <!-- <app-info></app-info> -->
+                <app-experience></app-experience>
+            </div>
+            <div class="card col-6">
+                <app-skills></app-skills>
+                <!-- <app-experience></app-experience> -->
+                <!-- <app-info></app-info> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="card col-6">
+                <app-education></app-education>
+                <!-- <app-info></app-info> -->
+                <!-- <app-experience></app-experience> -->
+            </div>
+            <div class="card col-6">
+                <app-certificates></app-certificates>
+                <!-- <app-info></app-info> -->
+                <!-- <app-experience></app-experience> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <table class="table">
     <th>
-        <app-datos-personales></app-datos-personales>
+        <app-experience></app-experience>
     </th>
     <tbody>
         <tr class="row">
             <td>
-                <app-experience></app-experience>
             </td>
             <td>
                 <app-skills class="posicion-skills"></app-skills>
@@ -21,4 +52,4 @@
                 <app-certificates></app-certificates>
             </td>
         </tr>
-    </tbody>
+    </tbody> -->

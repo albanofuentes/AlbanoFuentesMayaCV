@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarComponent implements OnInit {
 
-  nombre = 'Albano Fuentes';
-  constructor() { }
-  
-  
+  nombre = 'Albano Fuentes Maya';
+  constructor() {
+  }
+
   ngOnInit(): void {
   }
 }

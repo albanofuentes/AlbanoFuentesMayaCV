@@ -1,51 +1,69 @@
-.cert-div-container {
+/* .ubicacion-exp {
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.exp-div-container {
+    /* position: absolute;
+    left: 30px; */
     /* width: 900px; */
-    width: 50%;
-    box-sizing: border-box;
+    /* width: 50%; */
+    /* box-sizing: border-box; */
 }
 
-.th-icono-cert {
+.th-icono-work {
     padding-top: 1px;
     width: 60px;
 }
 
-.title-cert {
+.title-workexp {
     box-sizing: border-box;
     font-size: 35px;
     color: #4b4747;
     font-family: serif;
     margin: 12px;
+    display: block;
 }
 
-.div-title-cert {
-    margin-top: 10px;
-    font-family: serif;
-    color: #4b4747;
-    font-size: 18px;
+.li-exp {
+    /* width: 11cm; */
+    line-height: 18px;
+    padding-bottom: 8px;
+}
+
+.ul-exp {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    padding-inline-start: 25px;
 }
 
 table {
     margin-left: auto;
     font-family: serif;
-    color: #4b4747;
+    color: rgb(60, 60, 60);
     font-size: 18px;
 }
 
-.cert-periodo {
-    width: 500px;
+.job-periodo {
+    text-align: end;
+    /* width: 135px; */
+    /* margin-left: 100px; */
 }
 
-.titulo-style {
+.cargo-style {
     font-weight: bolder;
     font-size: 20px;
-    width: 500px;
 }
 
-.institucion-style {
-    line-height: 10px;
+.empresa {
+    /* line-height: 10px; */
 }
 
-.tecno-style {
-    width: 6cm;
-    margin-top: 30px;
+@media only screen and (max-width: 768px) {
+    .job-periodo {
+        text-align: start;
+        /* background-color: red; */
+        /* width: 135px; */
+        /* margin-left: 100px; */
+    }
 }

@@ -9,9 +9,6 @@
     .background-titulo {
         width: fit-content;
         border-radius: 1px;
-        /* height: 150px; */
-        /* padding-top: 15px;
-    padding-bottom: 15px; */
     }
     
     .texto-titulo {
@@ -33,7 +30,7 @@
     }
     
     .franja-negra {
-        background-color: #222;
+        background-color: rgb(60, 60, 60);
         position: absolute;
         height: 150px;
         z-index: 2;

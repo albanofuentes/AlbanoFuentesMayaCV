@@ -1,6 +1,7 @@
 .ubicacion-skill {
-    display: flex;
-    justify-content: flex-start;
+    width: 50%;
+    /* display: flex;
+    justify-content: flex-start; */
 }
 
 .skill-div-container {
@@ -19,7 +20,7 @@
     color: #4b4747;
     font-family: serif;
     margin: 12px;
-    font-weight: lighter;
+    display: block;
 }
 
 .div-h-skills {
@@ -49,10 +50,9 @@ table {
     color: #4b4747;
 }
 
-
-/* .bar {
-    width: 200px;
-    padding-bottom: 8px;
+.bar {
+    width: 750%;
+    /* padding-bottom: 8px;
     position: relative;
-    left: 30px;
-} */
+    left: 30px; */
+}
